@@ -1,1 +1,9 @@
-rm -rf .git
+rm -rf .git                      CLEAR ALL
+git log                          SEE ALL THE COMMIT 
+git commit -m "-"                ADD ALL THE FILES FROM STAGE RO COMMIT 
+git add --a                      add all the file to staging area
+git init                         ADDING ALL THE FILES TO TRACKING THE FILES
+touch .gitignore                 CREATING A FOLDER FOR IGNORING FILE 
+touch filename.filetype          CREATING A EMPTY FILE BY GIT 
+      (hello.pdf)
+git diff                         FINDING DIFFERENCES MADE IN STAGING AND COMMITED FILE
