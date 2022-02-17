@@ -8,3 +8,5 @@ touch filename.filetype         CREATING A EMPTY FILE BY GIT
       (hello.pdf)
 git diff                                        FINDING DIFFERENCES MADE IN STAGING AND COMMITED FILE
 git rm file name                       DELEATING FILE AND ADDING THE REMAINING FILE TO STAGE
+git mv pre name new name   CHANGING THE FILE NAME  
+git rm --cached filename      REMOVES THE FILE FROM TRACKING 
