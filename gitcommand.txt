@@ -1,3 +1,5 @@
+git config --global user.name "user name"      USER NAME 
+git config --global user.email "user email"      USER EMAIL
 rm -rf .git                                     CLEAR ALL
 git log                                           SEE ALL THE COMMIT 
 git log -p                                     GIVES WHAT ALL HAVE CHANGED BEFORE COMMITING      
@@ -8,6 +10,7 @@ git log --pretty=full                  GIVES BRIEF VIEW ON PREVIEOUS COMMITS IN 
 git log --since=2.days               GIVES BRIEF VIEW ON PREVIEOUS COMMITS IN LAST TWO DAYS
 git log --since=2.weeks            GIVES BRIEF VIEW ON PREVIEOUS COMMITS IN LAST TWO WEEKS
 git log --since=2.months         GIVES BRIEF VIEW ON PREVIEOUS COMMITS IN LAST TWO MONTHS
+git log --pretty=format: "%h --%ae"        REFER GIT SCM USEFUL OPTIONS FOR GIT LOG FORMAT
 git commit -m "-"                       ADD ALL THE FILES FROM STAGE RO COMMIT 
 git add --a                                    add all the file to staging area
 git init                                         ADDING ALL THE FILES TO TRACKING THE FILES
@@ -21,4 +24,5 @@ git rm --cached filename      REMOVES THE FILE FROM TRACKING
 git clone  file url (folder name)  helpes to clone a website from this command
                                  (it is the fine name you want to keep in pc)     
 q                                                  AFTER SEEING PREVIOUS COMMITS USE Q TO COME BACK
+
                     
