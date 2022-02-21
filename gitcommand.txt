@@ -25,4 +25,8 @@ git clone  file url (folder name)  				HELPES TO CLONE A COMMAND
                                  (it is the fine name you want to keep in pc)     
 q                                                  				AFTER SEEING PREVIOUS COMMITS USE Q TO COME BACK
 git restore --staged (file name) 				HELPES TO UNSTAGE A FILE FROM STAGING AREA
+
+
+
+
                     
