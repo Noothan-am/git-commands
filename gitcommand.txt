@@ -25,8 +25,9 @@ git clone  file url (folder name)  				HELPES TO CLONE A COMMAND
                                  (it is the fine name you want to keep in pc)     
 q                                                  				AFTER SEEING PREVIOUS COMMITS USE Q TO COME BACK
 git restore --staged (file name) 				HELPES TO UNSTAGE A FILE FROM STAGING AREA
-
-
-
+git checkout -- (file name) 				HELPES TO RESTORE CHANGES MADE IN A ONE FILE BEFORE ADDING TO STATAGING AREA(IT SHOWS THE CONTENT IN PREVIOUS COMMIT)
+								(👆👆 This is used only for one file )
+git checkout -f					HELPES TO RESTORE CHANGES MADE IN ALL FILE BEFORE ADDING TO STATAGING AREA(IT SHOWS THE CONTENT IN PREVIOUS COMMIT)
+shift+insert					PASTEING THE THINGS IN GIT
 
                     
