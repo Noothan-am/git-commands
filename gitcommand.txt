@@ -1,0 +1,33 @@
+git config --global user.name "user name"      		USER NAME 
+git config --global user.email "user email"      		USER EMAIL
+rm -rf .git                                 			    	CLEAR ALL
+git log                                        			   	SEE ALL THE COMMIT 
+git log -p                               			      	GIVES WHAT ALL HAVE CHANGED BEFORE COMMITING      
+git log --stat                          				GIVES BRIEF VIEW ON PREVIEOUS COMMITS
+git log --pretty=oneline      				GIVES BRIEF VIEW ON PREVIEOUS COMMITS IN ONE LINE 
+git log --pretty=short              				GIVES BRIEF VIEW ON PREVIEOUS COMMITS IN SHORT
+git log --pretty=full                  				GIVES BRIEF VIEW ON PREVIEOUS COMMITS IN FULL
+git log --since=2.days             			  	GIVES BRIEF VIEW ON PREVIEOUS COMMITS IN LAST TWO DAYS
+git log --since=2.weeks           			 	GIVES BRIEF VIEW ON PREVIEOUS COMMITS IN LAST TWO WEEKS
+git log --since=2.months        		 		GIVES BRIEF VIEW ON PREVIEOUS COMMITS IN LAST TWO MONTHS
+git log --pretty=format: "%h --%ae"      		  	REFER GIT SCM USEFUL OPTIONS FOR GIT LOG FORMAT
+git commit -m "-"                       				ADD ALL THE FILES FROM STAGE RO COMMIT 
+git add --a                                   				 ADD ALL THE FILES TO STAGING AREA
+git init                                        			 	ADDING ALL THE FILES TO TRACKING THE FILES
+touch .gitignore                     		  		CREATING A FOLDER FOR IGNORING FILE 
+touch filename.filetype       		  		CREATING A EMPTY FILE BY GIT 
+      (hello.pdf)
+git diff                                        				FINDING DIFFERENCES MADE IN STAGING AND COMMITED FILE
+git rm file name                      				DELEATING FILE AND ADDING THE REMAINING FILE TO STAGE
+git mv pre name new name  				CHANGING THE FILE NAME  
+git rm --cached filename      				REMOVES THE FILE FROM TRACKING 
+git clone  file url (folder name)  				HELPES TO CLONE A COMMAND
+                                 (it is the fine name you want to keep in pc)     
+q                                                  				AFTER SEEING PREVIOUS COMMITS USE Q TO COME BACK
+git restore --staged (file name) 				HELPES TO UNSTAGE A FILE FROM STAGING AREA
+git checkout -- (file name) 				HELPES TO RESTORE CHANGES MADE IN A ONE FILE BEFORE ADDING TO STATAGING AREA(IT SHOWS THE CONTENT IN PREVIOUS COMMIT)
+								(👆👆 This is used only for one file )
+git checkout -f					HELPES TO RESTORE CHANGES MADE IN ALL FILE BEFORE ADDING TO STATAGING AREA(IT SHOWS THE CONTENT IN PREVIOUS COMMIT)
+shift+insert					PASTEING THE THINGS IN GIT
+
+                    
