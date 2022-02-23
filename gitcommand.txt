@@ -33,4 +33,4 @@ git checkout -- (file name) 				HELPES TO RESTORE CHANGES MADE IN A ONE FILE BEF
 git checkout -f					HELPES TO RESTORE CHANGES MADE IN ALL FILE BEFORE ADDING TO STATAGING AREA(IT SHOWS THE CONTENT IN PREVIOUS COMMIT)
 shift+insert					PASTEING THE THINGS IN GIT
 
-                    
+                    learn about 
