@@ -1,3 +1,6 @@
+
+REFER THIS URL -----   " https://www.atlassian.com/git/glossary "
+
 git config --global user.name "user name"      		USER NAME 
 git config --global user.email "user email"      		USER EMAIL
 rm -rf .git                                 			    	CLEAR ALL
